@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="./img/favicon.ico" rel="shortcut icon"/>
+<title>Moonziila</title>
+<style>
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.theone{
+    width: 100%;
+    height: 810px;
+    background-image: url(./img/01.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.w{
+    margin: 0 auto;
+    max-width: 554px;
+    padding-top:189px;
+    width: auto;
+    text-align: center;
+}
+.w img{
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.banxin{
+    max-width: 1000px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.banxin img{
+    width: 100%;
+    margin-top: 49px;
+    margin-bottom: 60px;
+}
+.thetow{
+    /* height: 527px; */
+    width: 100%;
+    background-color: black;
+}
+.towp{
+    max-width: 992px;
+    width: auto;
+/* height: 252px; */
+font-size: 24px;
+font-family: SourceHanSansSC-Medium, SourceHanSansSC;
+font-weight: 500;
+color: #F8F8F8;
+line-height: 36px;
+margin-bottom: 60px;
+}
+.theree{
+    /* height: 1694px; */
+    width: 100%;
+    background-color: #a6ddd2;
+}
+
+.reone{
+    max-width: 658px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px 10px;
+    padding-top: 56px;
+    padding-bottom: 80px;
+}
+.reone_img{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.reone_p{
+    max-width: 658px;
+    width: auto;
+    /* height: 570px; */
+    font-size: 26px;
+    font-family: SourceHanSansSC-Regular, SourceHanSansSC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 38px;
+}
+.retow{
+    max-width: 833px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+.ow_img{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.owli_img{
+    width: 30px;
+}
+.ow_li{
+    line-height: 45px;
+    padding-bottom: 30px;;
+}
+.owli_p{
+    display: inline;
+    max-width: 783px;
+    width: auto;
+    height: 45px;
+    font-size: 30px;
+    font-family: SourceHanSansSC-Regular, SourceHanSansSC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 45px;
+}
+.ow_ul{
+    padding-bottom: 90px;
+}
+.thefour{
+    background-color: #000;
+}
+.four_w{
+    max-width: 753px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 73px;
+    padding-bottom: 104px;
+}
+.four_img{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.four_p1{
+    max-width: 736px;
+    width: 100%;
+    /* height: 225px; */
+    font-size: 24px;
+    font-family: SourceHanSansSC-Regular, SourceHanSansSC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 45px;
+    padding-bottom: 60px;
+}
+.four_p1 span{
+    font-size: 30px;
+}
+.five_w{
+    max-width: 626px;
+    width: auto;
+    /* padding: 10px; */
+    margin: 0 auto;
+}
+.five_img1{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.five_img2{
+    width: 100%;
+}
+.thefive{
+    padding: 10px;
+    padding-top:67px;
+    padding-bottom: 59px;
+    background-color: #a6ddd2;
+}
+.thesix{
+    padding: 10px;
+    padding-top: 40px;
+    background-color: #000;
+    padding-bottom: 128px;
+}
+.six_img1 {
+    max-width: 323px;
+    width: 100%;
+    padding-bottom: 75px;
+    /* margin: 0 auto; */
+}
+.six_img2 {
+    /* max-width: 916px; */
+    width: 100%;
+
+    /* margin: 0 auto; */
+}
+.six_w{
+    max-width: 916px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.seven_w{
+    max-width: 962px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seven_img{
+    width: 100%;
+    max-width: 629px;
+    padding-bottom: 69px;
+}
+.theseven{
+    padding: 10px;
+    padding-top: 86px;
+    padding-bottom: 163px;
+    background-color:#a6ddd2 ;
+}
+
+.seven_p{
+    max-width: 962px;
+    width: auto;
+    /* height: 630px; */
+    font-size: 30px;
+    font-family: SourceHanSansSC-Regular, SourceHanSansSC;
+    font-weight: 400;
+    color: #000000;
+    line-height: 45px;
+    text-align: left;
+}
+.footer{
+    padding: 10px;
+    padding-top: 86px;
+    padding-bottom: 163px;
+    background-color:#000 ;
+}
+.footer_w{
+    max-width: 688px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_img1{
+    width: 100%;
+    max-width: 110px;
+    display: inline;
+}
+.footer_img2{
+    width: 100%;
+    max-width: 101px;
+    padding-bottom: 68px;
+    padding-top: 8px;
+}
+.footer_p{
+    max-width: 688px;
+/* height: 29px; */
+font-size: 20px;
+font-family: SourceHanSansSC-Regular, SourceHanSansSC;
+font-weight: 400;
+color: #FFFFFF;
+line-height: 29px;
+}
+.wpbutton{
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 100px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.wpbutton:hover{
+    color: #000;
+    background-color: #a6ddd2;
+}
+.one_a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+    </style>
+</head>
+<body>
+<div class="main">
+<div class="theone">
+<div class="w">
+<img src="./sila.jpg" alt="" width="81%" height="458"/>
+<a class="one_a" href="http://moonzilla.finance/moonzillaWhitePaper.pdf" target="blank">
+</a>
+</div>
+</div>
+<div class="thetow">
+<div class="banxin">
+<img alt="" src="./img/03.png"/>
+<p class="towp">
+                    MoonZilla Token is an Auto-BNB reward contract that pays holders in BNB. No need to laim just hold the Moonzilla token in your wallet and you will earn $BNB.<br/><br/>
+                    Buy Moonzilla, Earn BNB, Stake BNB, Earn more BNB<br/><br/>
+                    Symbol: MOONZILLA <br/><br/>
+                    Contract:0xf059d83b1a7ccd0d17d49d2314c5ef1e93d2b8b9
+                </p>
+</div>
+</div>
+<div class="theree">
+<div class="reone">
+<img alt="" class="reone_img" src="./img/04.png"/>
+<p class="reone_p">The most power and influential monster Kaiju icon combined with the most popular MOON hot on BSC, here we are introducing the next 100x Gem token - Moonzilla.<br/><br/>
+
+                    5% of transaction tax is redistributed to holders in BNB automatically. Just buy and hold Moonzilla, you will receive $BNB reward in your wallet, no need for manual claim.<br/><br/>
+
+                    Moonzilla project team is formed by experienced dev and marketing experts. Huge marketing plans involved many different regional marketing partners. Our goal is to build the largest Godzilla fans community on BSC.</p>
+</div>
+<div class="retow">
+<img alt="" class="ow_img" src="./img/05.png"/>
+<ul class="ow_ul">
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            LP locked for 12 months, no rug, no honeypot. SAFU !
+                        </p>
+</li>
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            Experienced dev, fully tested and audited contract.
+                        </p>
+</li>
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            Strong Marketing experts
+                        </p>
+</li>
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            Transparent developer and marketing wallets.
+                        </p>
+</li>
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            Advanced reflection feature, Auto Cake rewards, no manual claim is required.
+                        </p>
+</li>
+<li class="ow_li">
+<img alt="" class="owli_img" src="./img/06.png"/>
+<p class="owli_p">
+                            Open communication, fully work with the community for feedbacks, critique, suggestions, aim to build a largest Godzilla fans community on BSC.
+                        </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="thefour">
+<div class="four_w">
+<img alt="" class="four_img" src="./img/07.png"/>
+<p class="four_p1">
+<span>Locked Liquidity</span><br/>
+                    Initial liquidity will be locked for 3 months. to provide holders with peace of mind that the token can always be exchanged. A trusted 3rd party - PinkLock, will operate as the trust Guarantee to ensure that all raised liquidity is locked in a secure
+locker for the full timeframe.
+                </p>
+<p class="four_p1">
+<span>Contract Audit Prior to Launch</span><br/>
+                    In an effort to increase transparency and security, the team has purchased audit review from top-tier auditor - HASHEX. Confirming no vulnerabilities or malicious code is found on the contract, which provide extract confident to the investors.
+
+                    The token contract is available for public viewing on bscscan.
+                </p>
+</div>
+</div>
+<div class="thefive">
+<div class="five_w">
+<img alt="" class="five_img1" src="./img/08.png"/>
+<img alt="" class="five_img2" src="./img/09.png"/>
+</div>
+</div>
+<div class="thesix">
+<div class="six_w">
+</div>
+</div>
+<div class="theseven">
+<div class="seven_w">
+<img alt="" class="seven_img" src="./img/12.png"/>
+<p class="seven_p">The Moonzilla team is a collective of Crypto and Godzilla "enthusiasts". We are aiming to build the largest Godzilla community, implement a NFT market platform for Godzilla Arts trading, bring in wider Godzilla fans around the world to join us. <br/><br/>
+
+                    This is long term project, we will open for all suggestions and feedbacks, build a trusted community with our investors together.<br/><br/>
+
+                    Nevertheless, we pledge to be completely transparent about developer &amp; marketing wallets, and every steps of the implementation &amp; development, as we believe that honest is the bedrock of trust between developers and investors. We understand not all crypto projects will success, but we will be there with the community till the end.
+                </p>
+</div>
+</div>
+<div class="footer">
+<div class="footer_w">
+<div class="relation">
+<a href="https://t.me/moonzilla_coin"><img alt="" class="footer_img1" src="./img/15.png"/></a>
+<a href="https://twitter.com/MoonzillanuBsc"><img alt="" class="footer_img1" src="./img/16.png"/></a>
+</div>
+<p class="footer_p">Copyright Â© 2021 Moonzilla All Rights Reserved</p>
+</div>
+</div>
+</div>
+</body>
+</html>
